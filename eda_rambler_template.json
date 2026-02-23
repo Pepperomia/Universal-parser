@@ -1,0 +1,41 @@
+{
+  "url": "https://eda.rambler.ru/recepty/salaty/cezar-114535",
+  "fields": {
+    "Название": {
+      "type": "text",
+      "selector": "#__next > main > div > div > div > div.css-19rdt1j > div.css-ifgo2i.ev25qvo0 > div.css-1h7uuyv > span > h1"
+    },
+    "Ингредиенты": {
+      "type": "list",
+      "selector": ".css-1oyy8lz"
+    },
+    "Калории": {
+      "type": "number",
+      "selector": "#__next > main > div > div > div > div.css-1509vkh > div.css-1ik2huf > div.css-1bpeio7 > span > div > div:nth-child(1) > span"
+    },
+    "Шаги": {
+      "type": "list",
+      "selector": "[itemprop=\"text\"]"
+    },
+    "Белки": {
+      "type": "number",
+      "selector": "#__next > main > div > div > div > div.css-1509vkh > div.css-1ik2huf > div.css-1bpeio7 > span > div > div:nth-child(2)"
+    },
+    "Жиры": {
+      "type": "number",
+      "selector": "#__next > main > div > div > div > div.css-1509vkh > div.css-1ik2huf > div.css-1bpeio7 > span > div > div:nth-child(3)"
+    },
+    "Углеводы": {
+      "type": "number",
+      "selector": "#__next > main > div > div > div > div.css-1509vkh > div.css-1ik2huf > div.css-1bpeio7 > span > div > div:nth-child(4)"
+    },
+    "Время": {
+      "type": "text",
+      "selector": "#__next > main > div > div > div > div.css-19rdt1j > div.css-ifgo2i.ev25qvo0 > div.css-fj09nl > div.css-1n7zanv > span:nth-child(2) > div.css-my9yfq"
+    },
+    "Кухни мира": {
+      "type": "text",
+      "selector": "#__next > main > div > div > div > div.css-19rdt1j > div.css-ifgo2i.ev25qvo0 > div.css-13pa6yw > div > nav > ul > li:nth-child(3) > a > span"
+    }
+  }
+}
