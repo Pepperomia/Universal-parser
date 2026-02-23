@@ -7,11 +7,7 @@
     },
     "Ингредиенты": {
       "type": "list",
-<<<<<<< HEAD
-      "selector": ".css-1oyy8lz"
-=======
       "selector": "[itemprop=\"recipeIngredient\"]"
->>>>>>> dev
     },
     "Калории": {
       "type": "number",
@@ -40,13 +36,10 @@
     "Кухни мира": {
       "type": "text",
       "selector": "#__next > main > div > div > div > div.css-19rdt1j > div.css-ifgo2i.ev25qvo0 > div.css-13pa6yw > div > nav > ul > li:nth-child(3) > a > span"
-<<<<<<< HEAD
-=======
     },
     "Количества": {
       "type": "list",
       "selector": ".css-bsdd3p"
->>>>>>> dev
     }
   }
 }
